@@ -3,4 +3,5 @@ from . import views # import from current folder
 
 urlpatterns = [
     path("", views.index),
+    path('new', views.new)
 ]
